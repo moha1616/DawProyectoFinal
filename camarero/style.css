@@ -1,0 +1,278 @@
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('XiroEats.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+    header {
+      background-color: white;
+      color: black;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .menu-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 20px;
+    }
+
+    .product {
+      width: 100%;
+      max-width: 300px;
+      margin: 10px;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 25px; /* Ajusta el valor según el redondeo deseado */
+      background-color: white;
+    }
+
+    .product img {
+      width: 100%;
+      height: auto;
+      border-radius: 18px;
+    }
+
+    .product h2 {
+      color: #D09806;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+
+    .product p {
+      margin-top: 0;
+      margin-bottom: 5px;
+    }
+
+    .product input[type="submit"] {
+    
+      background-color: #81CA65; /* Cambia el color del botón a verde */
+      color: white;
+      font-size: 16px; /* Ajusta el tamaño de fuente según sea necesario */
+      padding: 8px 42px; /* Ajusta el padding según sea necesario */
+      border: none;
+      border-radius: 10px; /* Ajusta el valor según el redondeo deseado */
+      cursor: pointer;
+    }
+
+    .product-type-buttons {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .product-type-buttons a {
+      margin: 0 10px;
+      padding: 8px 16px;
+      border: none;
+      border-radius: 25px;
+      background-color: red; /* Cambia el color de los botones a verde */
+      color: white;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .product-type-buttons a:hover {
+      background-color: darkgreen; /* Cambia el color de los botones al pasar el cursor */
+    }
+
+    #cart-container {
+      display: flex;
+      justify-content: center;
+    border-radius: 80px;
+
+    }
+
+    #cart {
+      margin: 20px auto;
+      max-width: 600px; /* Ajusta el ancho según tus necesidades */
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 25px;
+      background-color: white;
+      text-align: center;
+    }
+
+    #cart h2 {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    .cart-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 5px;
+    }
+
+    .cart-item p {
+      margin: 0;
+    }
+
+    .cart-item form {
+      margin-left: auto;
+    }
+
+    .cart-item form input[type="submit"] {
+      background-color: red;
+      color: white;
+      padding: 5px 10px;
+      margin: 2px 0;
+      border: none;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+
+    .cart-item form input[type="submit"]:hover {
+      background-color: #c82333;
+    }
+
+    .order-button {
+      background-color: #81CA65; /* Cambia el color del botón a azul */
+      color: white;
+      font-size: 18px; /* Ajusta el tamaño de fuente según sea necesario */
+      padding: 10px 20px; /* Ajusta el padding según sea necesario */
+      border: none;
+      border-radius: 10px; /* Ajusta el valor según el redondeo deseado */
+      cursor: pointer;
+    }
+
+    .floating-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: darkorange;
+      color: white;
+      font-size: 16px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+    }
+    
+        /* Estilos adicionales */
+        body {
+      background: url('XiroEats.png') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    #order-form-container {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #fff;
+      padding: 50px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      z-index: 1000;
+    }
+
+    #order-form-container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    #order-form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    #order-form label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    #order-form input[type="text"] {
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    #order-form input[type="submit"] {
+      display: block;
+      width: 100%;
+      padding: 15px;
+      background-color: #4caf50;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+        .filter-buttons {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .filter-buttons a {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 10px;
+      font-size: 16px;
+      background-color: white;
+      color: orange;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .menu-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .product {
+      width: 200px;
+      margin: 10px;
+      padding: 10px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      text-align: center;
+    }
+    
+    .floating-button {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      background-color: white;
+      color: orange;
+      border: none;
+      border-radius: 100%;
+      width: 50px;
+      height: 50px;
+      font-size: 20px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      cursor: pointer;
+    }
+
+    .floating-button:hover {
+      background-color: lightgrey;
+    }
+
+    /* Estilos para dispositivos móviles */
+
+    @media screen and (max-width: 600px) {
+      .menu-container {
+        justify-content: center;
+      }
+
+      .product {
+        margin: 10px auto;
+        width: 100%;
+      }
+    }
